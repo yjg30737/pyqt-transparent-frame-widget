@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     app = QApplication(sys.argv)
     customTitlebarWindow = TransparentFrameWidget()
-    customTitlebarWindow.addWidget(ViewerWidget())
+    customTitlebarWindow.addWidget(ViewerWidget()) # https://github.com/yjg30737/pyqt-viewer-widget.git
     customTitlebarWindow.show()
     app.exec_()
 ```
