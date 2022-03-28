@@ -10,6 +10,13 @@ PyQt widget(window) which has transparent frame(title bar), resizable, movable
 ## Included Packages
 * <a href="https://github.com/yjg30737/pyqt-frameless-window.git">pyqt-frameless-window</a>
 
+## Feature
+* Being able to move by dragging inner widget
+* Being able to resize by dragging border of window
+
+## Note
+Inner widget can't get any event currently. Because event is blocked by transparent frame widget (outer widget).
+
 ## Example
 Code Sample
 ```python
