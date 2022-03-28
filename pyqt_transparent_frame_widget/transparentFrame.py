@@ -19,6 +19,7 @@ class TransparentFrame(FramelessWindow):
     def __initBasicUi(self):
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         self.setAttribute(Qt.WA_NoSystemBackground, True)
+        self.setPressToMove(True)
 
         self.setMinimumSize(self.window().sizeHint().width(), self.window().sizeHint().height())
         self.parent().setMinimumSize(self.minimumSize())
