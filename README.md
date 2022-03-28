@@ -1,5 +1,5 @@
 # pyqt-transparent-frame-widget
-PyQt widget(window) which has transparent frame(title bar), resizable
+PyQt widget(window) which has transparent frame(title bar), resizable, movable
 
 ## Requirements
 * PyQt5 >= 5.15
